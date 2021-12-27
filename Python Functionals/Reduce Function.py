@@ -2,8 +2,9 @@ from fractions import Fraction
 from functools import reduce
 
 def product(fracs):
-    t = # complete this line with a reduce statement
-    return t.numerator, t.denominator
+    pass
+#    t = # complete this line with a reduce statement
+#    return t.numerator, t.denominator
 
 if __name__ == '__main__':
     fracs = []
