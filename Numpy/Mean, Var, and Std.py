@@ -1,8 +1,3 @@
 import numpy
-numpy.set_printoptions(legacy='1.13')
-N, M = list(map(int, input().split()))
-arr = []
-for _ in range(N):
-    arr.append(input().split())
-A = numpy.array(arr, int)
-print(numpy.mean(A, axis=1), numpy.var(A, axis=0), numpy.std(A), sep='\n')
+a = numpy.array([input().split() for _ in range(int(input().split()[0]))],int)
+print(numpy.mean(a,axis=1),numpy.var(a,axis=0),round(numpy.std(a), 11),sep="\n")
